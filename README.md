@@ -31,7 +31,8 @@
 
 ==Piano synthesizer====
 
-                Two classes, CPianoInstrument and CPianoNode, were used to deploy and complete the following functions:
+Two classes, CPianoInstrument and CPianoNode, were used to deploy and complete the following functions:
+
 Polyphony
                 Read the following XML node in the SetNote function of CPianoInstrument
                 <note measure="1" beat="1" duration="2" speed="1.0" notes="C3 G3 C4 E5"/>
