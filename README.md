@@ -29,7 +29,7 @@
             Reverb
 
 
-=============================================================================Piano synthesizer=============================================================================
+==Piano synthesizer====
                 Two classes, CPianoInstrument and CPianoNode, were used to deploy and complete the following functions:
 Polyphony
                 Read the following XML node in the SetNote function of CPianoInstrument
@@ -48,8 +48,8 @@ Pedal Noise
                 When a pedal syllable is read, play the corresponding sampling
 Dynamics (advanced)
                 The sampling for each piano key is divided into two types: soft and loud. When the speed is greater than 2.0, play the sampling for loud, otherwise play the sampling for soft.
-
-=============================================================================Effects=======================================================================
+		
+=====Effects====
 Flanging
                 Implemented through class CFlanging, the third measure of generating audio shows the effect.
 Chorus
