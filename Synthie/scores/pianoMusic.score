@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<score bpm="60" beatspermeasure="4">
+	<instrument instrument="PianoInstrument">
+		<note measure="1"   beat="1" 	   duration="2"   speed="1.0"    notes="C3 G3 C4 E5"/>									     
+		<note measure="1"   beat="3" 	   duration="2"   speed="1.1"    notes="G2 D3 G3 B4"/>
+																  
+		<note measure="2"   beat="1" 	   duration="2"   speed="1.2"    notes="A2 E3 A3 C5"/>												    
+		<note measure="2"   beat="3" 	   duration="2"   speed="1.3"    notes="E2 E3 G3"/>	
+																  
+		<note measure="3"   beat="1" 	   duration="2"   speed="1.4"    notes="F2 C3 F3 A3"/>												     
+		<note measure="3"   beat="3" 	   duration="2"   speed="1.5"    notes="C3 E3 G3"/>
+																  
+		<note measure="4"   beat="1" 	   duration="2"   speed="1.6"    notes="F2 C3 F3 A3"/>													     
+		<note measure="4"   beat="3" 	   duration="2"   speed="1.7"    notes="G2 D3 G3 B3"/>
+																  
+		<note measure="5"   beat="1" 	   duration="1"   speed="2.0"    notes="C3 E5 pedald"/>
+		<note measure="5"   beat="1.5"     duration="1"   speed="2.1"    notes="G3"/>
+		<note measure="5"   beat="2"       duration="1"   speed="2.2"    notes="C4"/>
+		<note measure="5"   beat="2.5"     duration="1"   speed="2.3"    notes="E5"/>													     
+		<note measure="5"   beat="3"       duration="1"   speed="2.4"    notes="G2 B3"/>
+		<note measure="5"   beat="3.5"     duration="1"   speed="2.5"    notes="D3"/>
+		<note measure="5"   beat="4"       duration="1"   speed="2.0"    notes="G3"/>
+		<note measure="5"   beat="4.5"     duration="1"   speed="2.1"    notes="B3 pedalu"/>
+																  
+		<note measure="6"   beat="1" 	   duration="1"   speed="1.0"    notes="A2 C5"/>
+		<note measure="6"   beat="1.5"     duration="1"   speed="1.0"    notes="E3"/>
+		<note measure="6"   beat="2"       duration="1"   speed="1.0"    notes="A3"/>
+		<note measure="6"   beat="2.5"     duration="1"   speed="1.0"    notes="C5"/>											     
+		<note measure="6"   beat="3"       duration="1"   speed="1.0"    notes="E3 B3"/>
+		<note measure="6"   beat="3.5"     duration="1"   speed="1.0"    notes="E3"/>
+		<note measure="6"   beat="4"       duration="1"   speed="1.0"    notes="G3"/>
+		<note measure="6"   beat="4.5"     duration="1"   speed="1.0"    notes="B3"/>
+							 										 
+		<note measure="7"   beat="1"       duration="1"   speed="1.0"    notes="F3 A3"/>
+		<note measure="7"   beat="1.5"     duration="1"   speed="1.0"    notes="C4"/>
+		<note measure="7"   beat="2"       duration="1"   speed="1.0"    notes="F4"/>
+		<note measure="7"   beat="2.5"     duration="1"   speed="1.0"    notes="A3"/>											     
+		<note measure="7"   beat="3"       duration="1"   speed="1.0"    notes="C3 G3"/>
+		<note measure="7"   beat="3.5"     duration="1"   speed="1.0"    notes="E3"/>
+		<note measure="7"   beat="4"       duration="1"   speed="1.0"    notes="G3"/>
+		<note measure="7"   beat="4.5"     duration="1"   speed="1.0"    notes="C4"/>
+	</instrument>
+	 
+	<instrument instrument="FlangingEffect">									   
+		<note measure="3"   beat="1"   send="1.0"	delay="0.02"   freq="0.02"/>
+		<note measure="3"   beat="3"   send="1.0"	delay="0.02"   freq="0.02"/>				     
+	</instrument>
+	
+	<instrument instrument="ChorusEffect">									   
+		<note measure="2"   beat="1"   send="1.0"	delay="0.5"   freq="0.02"  depth="0.2" />
+		<note measure="2"   beat="3"   send="1.0"	delay="0.5"   freq="0.02"  depth="0.2" />				     
+	</instrument>
+	
+	<instrument instrument="ReverbEffect">									   
+		<note measure="4"   beat="1"   send="1.0"	delay="0.1"   g="0.7"/>
+		<note measure="4"   beat="3"   send="1.0"	delay="0.1"   g="0.7"/>		
+	</instrument>
+</score>
+
